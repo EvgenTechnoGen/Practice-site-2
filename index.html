@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+  <header>
+    <div id="logo" onclick="slowScroll('#top')">
+      <span>Techno Gen</span>
+    </div>
+    <div id="about">
+      <a href="#" title="Возможности" onclick="slowScroll('#main')">Возможности</a>
+      <a href="#" onclick="slowScroll('#overiew')" title="Преимущества">Преимущества</a>
+      <a href="#" onclick="slowScroll('#contacts')" title="Контакты">Контакты</a>
+      <a href="#" onclick="slowScroll('#faq')" title="Ответы на вопросы">FAQ</a>
+    </div>
+  </header>
+
+  <div id="top">
+    <h1>Программирование</h1>
+    <h3>как способ жизни!</h3>
+  </div>
+
+  <div id="main">
+    <div class="intro">
+      <h2>Наши услуги вам помогут!</h2>
+      <span>Большой выбор всего, что может вам пригодиться.</span>
+    </div>
+    <div class="text">
+      <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum nesciunt enim a vel harum ipsam architecto perferendis veritatis explicabo magnam doloremque corporis, sapiente eaque recusandae voluptas aliquid suscipit aliquam qui, error rerum beatae blanditiis, dicta illo. Voluptas quod cupiditate, voluptatibus enim deserunt recusandae omnis ducimus quam similique non libero tempore!</span>
+    </div>
+  </div>
+
+  <div id="overiew">
+    <h2>Преимущества</h2>
+    <h4>С нами все проще</h4>
+
+    <div class="img">
+      <img src="https://itproger.com/img/courses/1532975967.jpg" alt="">
+      <span>Изучение языка Ruby для начинающих</span>
+    </div>
+    <div class="img">
+      <img src="https://itproger.com/img/courses/1530341233.jpg" alt="">
+      <span>Изучение PhotoShop для начинающих</span>
+    </div>
+    <div class="img">
+      <img src="https://itproger.com/img/courses/1523436361.jpg" alt="">
+      <span>Изучение языка Swift для начинающих</span>
+    </div>
+    <div class="img">
+      <img src="https://itproger.com/img/courses/1518607198.jpg" alt="">
+      <span>Создание игры на Puthon 3 с PyGame</span>
+    </div>
+  </div>
+
+  <!--Начало каталога
+  <div class="katalog">
+    <div class="product-main">
+      <div class="product">
+        <h2><a href="#">Базовый курс по HTML5</a></h2>
+        <div class="product-img"><a href="#"><img src="img/html.png" alt=""></a></div>
+        <p class="price">1 740<span>руб</span><a href="#"><div id="mess_send" class="btn">В корзину</div></p>
+      </div>
+    </div>
+  </div>
+  Конец каталога-->
+
+  <div id="contacts">
+    <center><h5>Обратная связь</h5></center>
+    <form id="form_input">
+      <label for="Name">Имя<span>*</span></label><br>
+      <input type="text" placeholder="Введите имя" name="name" id="name"></br>
+      <label for="email">Ваша почта<span>*</span></label><br>
+      <input type="email" placeholder="Введите email" name="email" id="email"></br>
+      <label for="message">Сообщение<span>*</span></label><br>
+      <textarea placeholder="Введите ваше сообщение" name="message" id="message"></textarea></br>
+      <div id="mess_send" class="btn">Отправить</div>
+    </form>
+  </div>
+
+  <div id="faq">
+    <div>
+      <span class="title">Оплата</span></br>
+      <span class="heading">Как будет происходить оплата?</span>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente incidunt necessitatibus blanditiis voluptates. Laborum deleniti voluptate fugit in quisquam repellat doloribus laboriosam hic quia facere itaque, voluptas accusantium beatae nam accusamus sequi, architecto magnam obcaecati dolores cum id nesciunt? Voluptatibus, maxime, facilis! Voluptatibus quasi perferendis odio, excepturi, ex tempora similique!</p>
+      <span class="heading">Как будет происходить оплата?</span>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente incidunt necessitatibus blanditiis voluptates. Laborum deleniti voluptate fugit in quisquam repellat doloribus laboriosam hic quia facere itaque, voluptas accusantium beatae nam accusamus sequi, architecto magnam obcaecati dolores cum id nesciunt? Voluptatibus, maxime, facilis! Voluptatibus quasi perferendis odio, excepturi, ex tempora similique!</p>
+      <span class="heading">Как будет проходить оплата?</span>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente incidunt necessitatibus blanditiis voluptates. Laborum deleniti voluptate fugit in quisquam repellat doloribus laboriosam hic quia facere itaque, voluptas accusantium beatae nam accusamus sequi, architecto magnam obcaecati dolores cum id nesciunt? Voluptatibus, maxime, facilis! Voluptatibus quasi perferendis odio, excepturi, ex tempora similique!</p>
+    </div>
+    <div>
+      <span class="title">Информация</span></br>
+      <span class="heading">Что входит в услуги сервиса</span>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente incidunt necessitatibus blanditiis voluptates. Laborum deleniti voluptate fugit in quisquam repellat doloribus laboriosam hic quia facere itaque, voluptas accusantium beatae nam accusamus sequi, architecto magnam obcaecati dolores cum id nesciunt? Voluptatibus, maxime, facilis! Voluptatibus quasi perferendis odio, excepturi, ex tempora similique!</p>
+      <span class="heading">Что входит в услуги сервиса</span>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente incidunt necessitatibus blanditiis voluptates. Laborum deleniti voluptate fugit in quisquam repellat doloribus laboriosam hic quia facere itaque, voluptas accusantium beatae nam accusamus sequi, architecto magnam obcaecati dolores cum id nesciunt? Voluptatibus, maxime, facilis! Voluptatibus quasi perferendis odio, excepturi, ex tempora similique!</p>
+      <span class="heading">Что входит в услуги сервиса</span>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente incidunt necessitatibus blanditiis voluptates. Laborum deleniti voluptate fugit in quisquam repellat doloribus laboriosam hic quia facere itaque, voluptas accusantium beatae nam accusamus sequi, architecto magnam obcaecati dolores cum id nesciunt? Voluptatibus, maxime, facilis! Voluptatibus quasi perferendis odio, excepturi, ex tempora similique!!</p>
+    </div>
+    <div>
+      <span class="title">Гарантии</span></br>
+      <span class="heading">Какие гарантии есть?</span>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente incidunt necessitatibus blanditiis voluptates. Laborum deleniti voluptate fugit in quisquam repellat doloribus laboriosam hic quia facere itaque, voluptas accusantium beatae nam accusamus sequi, architecto magnam obcaecati dolores cum id nesciunt? Voluptatibus, maxime, facilis! Voluptatibus quasi perferendis odio, excepturi, ex tempora similique!</p>
+      <span class="heading">Какие гарантии есть?</span>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente incidunt necessitatibus blanditiis voluptates. Laborum deleniti voluptate fugit in quisquam repellat doloribus laboriosam hic quia facere itaque, voluptas accusantium beatae nam accusamus sequi, architecto magnam obcaecati dolores cum id nesciunt? Voluptatibus, maxime, facilis! Voluptatibus quasi perferendis odio, excepturi, ex tempora similique!</p>
+      <span class="heading">Какие гарантии есть?</span>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente incidunt necessitatibus blanditiis voluptates. Laborum deleniti voluptate fugit in quisquam repellat doloribus laboriosam hic quia facere itaque, voluptas accusantium beatae nam accusamus sequi, architecto magnam obcaecati dolores cum id nesciunt? Voluptatibus, maxime, facilis! Voluptatibus quasi perferendis odio, excepturi, ex tempora similique!</p>
+    </div>
+  </div>
+  <footer>
+    <div id="footer">
+      <a href="#" title="Возможности" onclick="slowScroll('#main')">Возможности</a>
+      <a href="#" onclick="slowScroll('#overiew')" title="Преимущества">Преимущества</a>
+      <a href="#" onclick="slowScroll('#contacts')" title="Контакты">Контакты</a>
+      <a href="#" onclick="slowScroll('#faq')" title="Ответы на вопросы">FAQ</a>
+    </div>
+    <div id="icons">
+      <img class="vk" src="img/vk.png">
+      <img class="facebook" src="img/iconfinder_facebook_834722.png">
+      <img clss="instagram" src="img/iconfinder_25_social_2609558.png">
+    </div>
+    <div id="logotip" onclick="slowScroll('#top')">
+      <span>Techno Gen 2019</span>
+    </div>
+  </footer>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script>
+    function slowScroll(id) {
+      $('html, body').animate({
+        scrollTop: $(id).offset().top
+      }, 500);
+    }
+
+    $(document).on("scroll", function () {
+      if($(window).scrollTop() === 0)
+        $("header").removeClass("fixed");
+      else
+        $("header").attr("class", "fixed");
+    });
+  </script>
+</body>
+</html>
